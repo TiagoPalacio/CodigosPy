@@ -1,0 +1,5 @@
+ganho_por_hora = float(input('Quantos voce ganha por hora :'))
+horas_trabalhadas = float(input('Quantas horas voce trabalhou por mes :'))
+salario_total = ganho_por_hora*horas_trabalhadas
+
+print(f'seu salário final é de : R${salario_total:.2f}')
